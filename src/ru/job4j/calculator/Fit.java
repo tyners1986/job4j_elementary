@@ -7,8 +7,8 @@ public class Fit {
         return rsl;
     }
 
-    public static double womanWeight(short womenHeight) { // Аргумент переиминовал и наче не проходитрешение.
-        double rsl = (womenHeight - 110) * 1.15;
+    public static double womanWeight(short height) { // Аргумент переиминовал и наче не проходитрешение.
+        double rsl = (height - 110) * 1.15;
         return rsl;
     }
 
@@ -16,8 +16,8 @@ public class Fit {
         short height = 175;
         double man = Fit.manWeight(height);
         System.out.println("Man 175 is "  + man);
-        short womenHeight = 165;
-        double woman = Fit.womanWeight(womenHeight);
+        short wHeight = 165;
+        double woman = Fit.womanWeight(wHeight);
         System.out.println("Woman 165 is " + woman);
     }
 
