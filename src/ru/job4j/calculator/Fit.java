@@ -7,7 +7,7 @@ public class Fit {
         return rsl;
     }
 
-    public static double womanWeight(short height) { // Аргумент переиминовал и наче не проходитрешение.
+    public static double womanWeight(short height) {
         double rsl = (height - 110) * 1.15;
         return rsl;
     }
