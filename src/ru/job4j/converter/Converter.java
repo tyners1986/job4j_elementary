@@ -6,6 +6,7 @@ public class Converter {
         int euro = value * 70;
         return euro;
     }
+
     public static int dollarToRub(int value) {
         int dollar = value * 60;
         return dollar;
