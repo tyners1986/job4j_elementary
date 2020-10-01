@@ -13,9 +13,10 @@ public class Converter {
             }
 
     public static void main(String[] args) {
-        int euro = Converter.euroToRub(1);
+        int euro = Converter.euroToRub(2);
         System.out.println("1 euro " + euro + " rub.");
-        int dollar = Converter.dollarToRub(1);
+        int dollar = Converter.dollarToRub(2);
         System.out.println("1 dollar " + dollar + " rub.");
     }
+
 }
