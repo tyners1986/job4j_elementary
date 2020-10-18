@@ -13,4 +13,10 @@ public class CounterTest {
         int expected = 30;
         assertThat(rsl, is(expected));
     }
+    @Test
+    public void NumbersFromOneToTenThenThirty() {
+        int rsl = Counter.sumByEven(1, 20);
+        int expected = 110;
+        assertThat(rsl, is(expected));
+    }
 }
