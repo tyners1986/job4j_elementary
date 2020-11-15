@@ -6,15 +6,16 @@ public class Merge {
         int i = 0;
         int j = 0;
         int z = 0;
+        while (i < left.length && j < right.length) {
+            rsl[z++] = left[i] < right[j] ? left[i++] : right[j++];
+        }
         while (i < left.length) {
-            rsl[z] = left[i];
-            z++;
-            i++;
+            rsl[z++] = left[i++];
+
         }
         while (j < right.length) {
-            rsl[z] = right[j];
-            z++;
-            j++;
+            rsl[z++] = right[j++];
+
 
         }
 
@@ -22,4 +23,4 @@ public class Merge {
         return rsl;
 
     }
-}/
+}
